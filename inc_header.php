@@ -17,6 +17,7 @@
 <!--Style-->
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/embed_font.css">
 <!--js-->
 <script src="js/vendor/jquery-1.9.1.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
