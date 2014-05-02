@@ -116,12 +116,37 @@ section { position: relative; }
 ----------------------------------------------------------------------------------------------*/
 footer {
 	position: relative;
-	background-color:#ec3a23;
+	background-color: #ec3a23;
+	padding-top: 40px;
 }
+footer .left{
+	width: 320px;
+	margin-left: 45px;
+	font-size: 13px;
+	color: #FFF;
+}
+footer .left h3{
+	font-family: 'NeoSansMedium';
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 8px;
+	margin-left: 0;
+}
+footer .left a{
+	color: #f9981a;
+	text-decoration: none;
+	background-image: url(../images/material/arrow-link.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 15px;
+}
+footer .right{ margin-right:45px;}
 footer .right ul{
 	list-style-type: none;
 	margin: 0;
 	width: 600px;
+	float: left;
+	padding:0;
 }
 footer .right ul li{
 	float: left;
@@ -138,6 +163,15 @@ footer .right ul li a{
 	display: block;
 	width: 185px;
 }
+footer .right .socmed{ float: right; }
+footer .right .socmed a{
+	color: #FFF;
+	font-size: 13px;
+	text-decoration: none;
+	display:block;
+	margin-bottom:10px;
+}
+footer .right .socmed a img{ vertical-align:middle; }
 footer .copyright{
 	text-align: center;
 	font-size: 13px;
@@ -146,6 +180,7 @@ footer .copyright{
 	background-color: #000;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin-top:30px;
 }
 footer .copyright a{
 	color: #ccc;

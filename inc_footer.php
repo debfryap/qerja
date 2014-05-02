@@ -1,5 +1,5 @@
     	<!--Footer -->
-        <footer> test
+        <footer>
         <div class="left"><h3>Apa itu Qerja?</h3><p>Qerja adalah sebuah komunitas untuk berbagi informasi mengenai tempat kerja dan gaji, khususnya untuk perusahaan yang berada di Indonesia. </p>
           <a href="#">Selengkapnya</a></div>
           <div class="right">
@@ -14,6 +14,7 @@
               <li><a href="#">Review Perusahaan</a></li>
               <li><a href="#">Daftar / LogIn</a></li>
             </ul>
+            <div class="socmed"><a href="#"><img src="images/material/icon-twitter.png" width="22" height="22" alt="" /> Twitter Qerja</a> <a href="#"><img src="images/material/icon-fb.png" width="22" height="22" alt="" /> Facebook Qerja</a></div>
           </div>
           <div class="clear"></div>
 <p class="copyright">Qerja © Copyright 2014. All Rights Reserved.   <a href="#">Syarat & Ketentuan</a> | <a href="#">Kebijakan Privasi</a></p></footer>
