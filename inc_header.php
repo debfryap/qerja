@@ -36,7 +36,7 @@
 <!-- header -->
 <header>
   <div class="left">
-    <div class="logo"><img src="images/material/logo.png" alt="Logo"></div>
+    <div class="logo"><a href="index.php"><img src="images/material/logo.png" alt="Logo"></a></div>
     <a href="#">Gaji</a> <a href="#">Review</a></div>
   <div class="right">
     <ul>
