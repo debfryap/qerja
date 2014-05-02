@@ -1,5 +1,5 @@
     	<!--Footer -->
-        <footer>
+        <footer> test
         <div class="left"><h3>Apa itu Qerja?</h3><p>Qerja adalah sebuah komunitas untuk berbagi informasi mengenai tempat kerja dan gaji, khususnya untuk perusahaan yang berada di Indonesia. </p>
           <a href="#">Selengkapnya</a></div>
           <div class="right">
