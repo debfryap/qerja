@@ -68,6 +68,8 @@ header {
 header .left { margin-left: 45px; }
 header .left .logo {
 	float: left;
+	padding-bottom:5px;
+	padding-top:5px;
 }
 header .left a {
 	display: inline-block;
@@ -94,24 +96,91 @@ header .right ul li a {
 	display: block;
 	padding-right: 18px;
 	padding-left: 18px;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding-top: 17px;
+	padding-bottom: 17px;
 	text-decoration: none;
 }
 header .right ul li a.active { background-color: #000; }
-header .right ul li ul{
-	position: absolute;
-	top: 40px;
-	left: 0px;
-	right: 0px;
-	background-color:#0a0303;
-	text-align:center;
+#submenu{
+	position: relative;
+	background-color: #0a0303;
+	text-align: center;
+	z-index: 3;
+	background-image: url(../images/material/bg-submenu.jpg), url(../images/material/bg-submenu-02.jpg);
+	background-repeat: no-repeat;
+	background-position: left, right;
 }
-header .right ul li ul li{ display:inline-block; float:none; }
+#submenu ul{
+	margin: 0;
+	padding: 0;
+	height: 40px;
+}
+#submenu ul li{ display:inline-block; float:none; }
+#submenu ul li a{
+	padding-right: 18px;
+	padding-left: 18px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #FFF;
+	display:inline-block;
+}
+#submenu ul li.active{
+	padding-bottom: 18px;
+	background-image: url(../images/material/arrow-submenu.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
 /* middle
 ----------------------------------------------------------------------------------------------*/
 #middle { position: relative; }
+#banner{}
+#banner img{ width:100%; height:auto; }
 section { position: relative; }
+#container{ margin-left:1px;}
+.box { 	background-color:#ff4499; height:191px;
+			-webkit-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); 
+   -moz-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); 
+    -ms-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); 
+     -o-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); 
+        transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); /* easeInOutExpo */
+        
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+
+
+                 
+        				}
+			
+.box.size1{ width:195px; height:191px; background-color:#063;}
+.box.size2{ width:390px; background-color:#03C;}
+.box.thumb{ width:390px; height:382px; }
+
+
+.size21, .size22, .size23, .twocols { background: #ccc }
+.size31, .size32, .size33, .threecols { background: #ff9999 }
+#happyqerja{
+	background-image: url(../images/material/bg-red.jpg);
+	background-repeat: repeat;
+}
+#happyqerja h2{
+	font-size: 30px;
+	color: #fff;
+	font-family: 'NeoSansMedium';
+}
+#happyqerja p{
+	font-size: 13px;
+	color: #FFF;
+}
+#thumb-qerja{
+	background-image: url(../images/material/shadow-qerja.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 /* footer
 ----------------------------------------------------------------------------------------------*/
 footer {

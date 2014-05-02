@@ -22,6 +22,8 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<script src="js/jquery.nested.js"></script>
+<!--<script src="js/makeboxes.js"></script>-->
 <script src="js/jquery_function.js"></script>
 </head>
 <body>
@@ -38,13 +40,7 @@
     <a href="#">Gaji</a> <a href="#">Review</a></div>
   <div class="right">
     <ul>
-      <li><a href="#" class="active">#HappyQerja</a>
-        <ul>
-          <li><a href="#" class="active">Happy@work</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Articles</a></li>
-        </ul>
-      </li>
+      <li><a href="#" class="active">#HappyQerja</a></li>
       <li><a href="#">Tulis Gaji</a></li>
       <li><a href="#">Tulis Review</a></li>
       <li><a href="#">Login</a></li>
@@ -53,4 +49,11 @@
   </div>
   <div class="clear"></div>
 </header>
+<div id="submenu">
+	<ul>
+          <li class="active"><a href="#">Happy@work</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Articles</a></li>
+        </ul>
+</div>
 <!-- end of header -->
