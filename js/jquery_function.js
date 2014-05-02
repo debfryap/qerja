@@ -14,6 +14,7 @@ $(document).ready(function () {
 		}		
 		return false;
 	});
+	$('#container').nested({gutter: 0,}); 
 	//for mobile function
 	function mobile() {
 		device = "Mobile";
